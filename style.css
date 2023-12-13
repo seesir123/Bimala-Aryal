@@ -1,0 +1,197 @@
+.social-media {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .social-media li {
+    margin: 0 10px;
+  }
+  
+  .social-media a {
+    color: #fff;
+    font-size: 24px;
+    text-decoration: none;
+    transition: all 0.2s ease;
+  }
+  
+  .social-media a:hover {
+    transform: scale(1.2);
+  }
+  .social-media a img {
+   
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    transition: all 0.3s ease;
+  }
+  
+  .social-media a:hover img {
+    transform: scale(1.2);
+  }
+  .pp{
+    font-size: 17px;
+    font-weight:lighter;
+  }
+  p{
+    font-family: 'mukta', sans-serif;
+  }
+  h2
+  {
+    font-family: 'Teko', sans-serif;
+  }
+  h1
+{
+  font-family: 'Anek Devanagari', sans-serif;
+}
+
+
+/* About Section */
+#about {
+  background-color: #F8F9FA;
+  padding: 80px 0;
+}
+
+/* Projects Section */
+#projects {
+  background-color: #FFFFFF;
+  padding: 80px 0;
+}
+
+/* Contact Section */
+#contact {
+  background-color: #F8F9FA;
+  padding: 80px 0;
+}
+
+/* Footer Section */
+footer {
+  background-color: #343A40;
+  color: #FFFFFF;
+  padding: 20px 0;
+}
+
+
+.custom-container {
+height: 100px; /* Adjust the height value as per your requirement */
+
+}
+.fontstyle{
+font-family: 'Times New Roman','sans-serif';
+font-size: 40px;
+
+}
+.canvasstyle{
+
+font-size: large;
+font-weight: 600px;
+
+
+
+
+
+}
+
+a.card-link {
+  text-decoration: none;
+  color: black;
+}
+
+
+.card-title a {
+  color: #212529;
+  text-decoration: none;
+  
+}
+
+.card-title a:hover {
+  color: #007bff;
+}
+.card-img-container {
+  overflow: hidden;
+}
+
+.card-img-container img {
+  transition: transform 0.3s ease;
+}
+
+.card-img-container:hover img {
+  transform: scale(1.1);
+}
+
+.custom-heading-1 {
+  font-size: 48px;
+  font-weight: bold;
+  color: #333;
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  margin-top: 50px;
+}
+
+.custom-heading-2 {
+  font-size: 36px;
+
+  color: #d32f2f;
+  text-align: center;
+  margin-bottom: 50px;
+}
+.custom-card {
+  border: 4px solid #000;
+  border-radius: 0;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: box-shadow 0.3s ease-in-out;
+
+}
+.custom-card:hover {
+  box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2);
+}
+
+.custom-card .card-body {
+  padding: 20px;
+}
+
+.custom-card .card-title {
+  font-size: 22px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.custom-card .card-text {
+  font-size: 16px;
+  color: #666666;
+  line-height: 1.5;
+}
+
+.custom-card .btn-primary {
+  background-color: #007bff;
+  border-color: #007bff;
+  transition: background-color 0.3s ease-in-out, border-color 0.3s ease-in-out;
+}
+
+.custom-card .btn-primary:hover {
+  background-color: #0056b3;
+  border-color: #0056b3;
+}
+
+.fontstyle{
+  font-size: 40px;
+}
+
+@media (max-width:575px) {
+
+  .fontstyle{
+    font-size: 24px;
+  }
+  
+}
+
+.hero {
+  height: 700px;
+  width: 100%;
+  padding: 100px 0;
+  color: #FFFFFF;
+  background-size: cover;
+  background-position: center;
+  text-align:center ;
+  background-image:url("Screenshot 2023-06-03 105157.png");
+}
